@@ -1,7 +1,11 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
-	cout << "Hello world! " << endl;
+	string name;
+	cout << "Hello world! " << endl << "login ..." << endl;
+	cin >> name;
+	cout << "hello, " << name << endl;
 	return 0;
 }
